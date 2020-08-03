@@ -1,2 +1,2 @@
 # OpenCV
-Getting started with OpenCv (Companion repo)
+Getting started with OpenCv (Companion Repo)
