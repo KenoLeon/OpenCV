@@ -12,7 +12,7 @@ while(True):
     # Find circles:
     circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, rows / 8,
                                param1=100, param2=30,
-                               minRadius=1, maxRadius=30)
+                               minRadius=80, maxRadius=100)
 
     # Found circles ? Draw on top of them
     if circles is not None:
